@@ -1,0 +1,107 @@
+<!-- Table -->
+  <body>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">name</th>
+          <th>age</th>
+          <th>gender</th>
+          <th>salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <td>yasser</td>
+        <td>hamada</td>
+        <td>32</td>
+        <td>male</td>
+        <td>$2000</td>
+      </tr>
+      <tr>
+        <td colspan="2">ali</td>
+        <td>42</td>
+        <td>male</td>
+        <td>$5000</td>
+      </tr>
+      <tr>
+        <td>menna</td>
+        <td>yasser</td>
+        <td>32</td>
+        <td>female</td>
+        <td>$3000</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+
+
+<!-- Form -->
+  <form action="./the-file-i-will-send-data-to.js" method="post">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="uFirstname" minlength="3" maxlength="18"/>
+    <br />
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="uLastname" disabled/>
+    <br />
+      <label for="search">Search:</label>
+      <input type="search" id="search" name="uSearch"/>
+    <br />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="uAge" min="18" max="55"/>
+    <br />
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="uPhone"/>
+    <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="uEmail" placeholder="example@example.com"/>
+    <br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="uPassword" required/>
+    <br />
+      <label for="comment">Your Comment</label>
+      <textarea id="comment" name="uComment" cols="50" rows="5" placeholder="This is a Read-Only :)" readonly></textarea>
+    <br />
+      <label for="color">Choose Your Color</label>
+      <input type="color" name="uColor" id="color">
+    <br />
+      <label for="date">Choose Date</label>
+      <input type="date" name="uDate" id="date">
+    <br />
+      <input type="file" name="file" accept="image/*" multiple>
+    <br />
+      <button type="submit" hidden>Register</button>
+      <input type="submit" value="Register"/>
+  </form>
+
+
+<!-- Radio, Checkbox & Select -->
+  <form>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female">
+    <br />
+      <label for="html">Html5</label>
+      <input type="checkbox" id="html" name="languages" value="html">
+      <label for="css">Css3</label>
+      <input type="checkbox" id="css" name="languages" value="css">
+      <label for="js">JavaScript</label>
+      <input type="checkbox" id="js" name="languages" value="js">
+      <label for="react">React</label>
+      <input type="checkbox" id="react" name="languages" value="react">
+    <br />
+      <select name="cars">
+        <option value="Volvo">Volvo</option>
+        <option value="BMW">BMW</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Bugati">Bugati</option>
+      </select>
+  </form>
