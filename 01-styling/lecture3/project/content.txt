@@ -1,0 +1,28 @@
+table (thead - th - border - tbody - tr - td - tfoot )
+colspan - rowspan (self study)
+image in table
+inline style - HTML Attr (bgColor)
+Color Systems (Future)
+Comments
+Form (label - Input - for - id)
+firstName - lastName - age
+type (text - number)
+browser comptability (can I use)
+name Attribute
+min -max Attribute
+why don't depend on client validation only
+Validiation
+email - password
+button vs button with type submit
+
+Textarea 
+row - cols in textarea
+file (accept attribute) image/* - all files - multiple attribute
+input (color - date )
+Radio - checkbox - value
+select - option
+
+placeholder - required - maxLength - minLength
+action - method
+disabled - readonly - hidden
+tel - search types
