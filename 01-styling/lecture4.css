@@ -1,0 +1,84 @@
+/* Selector Types */
+basic {
+  value: key;
+}
+.class {
+  value: key;
+}
+#id {
+  value: key;
+}
+
+/* Background */
+selector {
+  background-color: red;
+}
+
+/* Text Color */
+selector {
+  color: blue;
+}
+
+/* Text Align */
+selector {
+  text-align: center;
+}
+
+/* Font Weight */
+selector {
+  font-weight: 500;
+}
+
+/* Width & Height */
+selector {
+  width: 100px;
+  height: 100px;
+}
+
+/* Inline & Block */
+selector {
+  display: block;
+  display: inline-block;
+  display: none;
+}
+
+/* Typography */
+selector {
+  font-size: medium;
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: 100;
+  font-weight: 200;
+  font-weight: 300;
+  font-weight: 400;
+  font-weight: 500;
+  font-weight: 600;
+  font-weight: 700;
+  font-weight: 800;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration: line-through;
+  color: #000;
+  color: #000000;
+  color: black;
+  color: rgb(0,0,0);
+  color: rgba(0,0,0,0.9);
+}
+
+/* Lists Styles */
+selector {
+  list-style-type: disc;
+  list-style-type: circle;
+  list-style-type: square;
+  list-style-position: inside;
+  list-style-position: outside;
+  list-style-image: url();
+}
+
+/* Table Styles */
+selector{
+  border: 1px black solid;
+  border-collapse: separate;
+  border-collapse: collapse;
+  width: 100%;
+}
