@@ -1,0 +1,38 @@
+introduction to css & cascading meaning
+style types
+inline css
+seperation of concerns - single responsabilty
+internal css
+selector
+external css
+link usage
+strength and false principle periority
+override
+classes
+class periority (more specify)
+can item take more than class ?
+class="one" class="two" != class="one two"
+class naming convertion
+single class with single property and value
+Div - content div (h1 - p - button)
+Parent and child 
+Defualt value in css
+height defualt value
+id selector
+display (inline - block)
+inline width, height
+inline-block
+
+span
+
+typography
+Colors & Backgrounds
+
+
+list-style-type
+list-style-image
+list-style-position
+table border
+table full width
+table collapse
+steps to create page
